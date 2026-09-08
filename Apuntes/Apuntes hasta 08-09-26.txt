@@ -1,2 +1,4 @@
-Funcion de Costos --> Mide el error 
-
+-Funcion de Costos --> Mide el error.
+-Para enteder el porque reconstruimos los laboratorios es precisamente porque antes lo haciamos a mano 
+por asi decirlo y ahora pytorch nos ayuda con eso ya que pytorch viene con una estructura la cual esta preparada para entrenar modelos de una manera mas automatica y escalable .
+-Tambien cabe aclarar que antes hicimos a mano porque debemos entender de que se trata o que está pasando matematicamente.
