@@ -1,4 +1,17 @@
 -Funcion de Costos --> Mide el error.
+-Funcion del gradiente --> Indica con que direccion y con que fuerza mover cada parametro para reducir el minimo error.
 -Para enteder el porque reconstruimos los laboratorios es precisamente porque antes lo haciamos a mano 
-por asi decirlo y ahora pytorch nos ayuda con eso ya que pytorch viene con una estructura la cual esta preparada para entrenar modelos de una manera mas automatica y escalable .
--Tambien cabe aclarar que antes hicimos a mano porque debemos entender de que se trata o que está pasando matematicamente.
+por asi decirlo y ahora pytorch nos ayuda con eso ya que pytorch viene con una estructura la cual esta preparada para
+entrenar modelos de una manera mas automatica y escalable .
+-Tambien cabe aclarar que antes hicimos a mano porque debemos entender de que se trata o que está pasando 
+matematicamente y pytorch nos sirve para implementar la misma logica pero de una formas mas profesional ya que real 
+ya lo es porque trabajamos con datasets reales.
+-La ventaja de implementar o el porque rehicimos los laboratorios es porque necesitamos tenerlo de una forma mas
+estructurada o escalable, utilizando asi funciones ya creadas en pytorch y tambien con la ventaja de que Dataset 
+y DataLoader nos facilitan trabajar con grandes cantidades de datos y que también podemos sacarle provecho a nuestra
+GPU en caso de tener una.
+-Recordemos que no se está dando la vuelta al mundo y con pytorch todo es diferente, sino que debemos de cambiar la
+forma en la que lo implementamos y entrenamos el modelo correspondiente.
+-Dataset, DataLoader, backward, optimizer.step
+-El calculo del gradiente y la actualizacion de tita manualmente mientras que en pytorch son manejados con un objeto
+taset y posteriormente DataLoader.
