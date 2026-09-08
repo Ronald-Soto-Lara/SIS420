@@ -1,1 +1,2 @@
+Funcion de Costos --> Mide el error 
 
